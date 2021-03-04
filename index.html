@@ -39,11 +39,11 @@
         margin: 20px;
     }
     .bottom {
-        position: fixed;
         background-color: rgb(48, 48, 48);
-        bottom: 0px;
-        left: 0px;
+        position: fixed;
         text-align: center;
+        left: 0px;
+        bottom: 0px;
         width: 100%;
     }
     #logo {
@@ -59,10 +59,15 @@
         position: relative;
         text-align: center;
         top: 150px; 
+        padding-bottom: 60px;
     }
-    #cover img, #logo img {
+    #cover img {
         width: 100%;
         max-width: 800px;
+    }
+    #logo img {
+        width: 100%;
+        max-width: 406px;
     }
     #cover img:hover {
         opacity: 0.8;
@@ -75,6 +80,7 @@
     }
 </style>
 <body>
+
     <div class="header">
         <ul>
             <li>HOME</li>
@@ -88,7 +94,11 @@
             <li>CONTACT</li>
         </ul>
     </div>
-<div id="logo"><img src="logo.png" alt=""></div>
+
+<div id="logo">
+    <img src="logo.png" alt="">
+</div>
+
 <div id="cover">
     <h1>Petroleum Spirit Daze – Record/Vinyl + Digital Album</h1>
     <a href="https://swervedriver.bandcamp.com/album/petroleum-spirit-daze"><img src="cover.jpg" alt=""></a>
