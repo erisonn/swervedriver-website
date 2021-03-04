@@ -50,6 +50,7 @@
         text-align: center;
         position: relative;
         top: 100px;
+        width: 100%;
     }
     h1 {
         font-size: 20px;
@@ -59,11 +60,18 @@
         text-align: center;
         top: 150px; 
     }
-    #cover img {
-        width: 800px;
+    #cover img, #logo img {
+        width: 100%;
+        max-width: 800px;
     }
     #cover img:hover {
         opacity: 0.8;
+    }
+    @media (max-width: 780px)
+    {
+        .header {
+            display: none;
+        }
     }
 </style>
 <body>
