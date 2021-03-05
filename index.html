@@ -27,6 +27,14 @@
         display: inline-block;
         margin: 15px;
     }
+    .header a {
+        text-decoration: none;
+        color: rgb(46, 46, 46);
+    }
+    .header a:hover {
+        color: rgb(255, 255, 255);
+        font-weight: bolder;
+    }
     .header ul {
         padding-left: 0px;
     }
@@ -37,7 +45,7 @@
         padding-left: 0px;
     }
     .bottom a {
-        color: blanchedalmond; 
+        color: rgb(253, 246, 235); 
         font-size: 20px; 
         margin: 20px;
     }
@@ -68,6 +76,9 @@
         width: 100%;
         max-width: 800px;
     }
+    a {
+        outline: none;
+    }
     #logo img {
         width: 100%;
         max-width: 406px;
@@ -75,6 +86,7 @@
     #cover img:hover {
         opacity: 0.8;
     }
+
     @media (max-width: 780px)
     {
         .header {
@@ -86,33 +98,33 @@
 
     <div class="header">
         <ul>
-            <li>HOME</li>
-            <li>MUSIC</li>
-            <li>NEWS</li>
-            <li>TOURS</li>
-            <li>FORUM</li>
-            <li>PICTURES</li>
-            <li>VIDEOS</li>
-            <li>SHOP</li>
-            <li>CONTACT</li>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#music">MUSIC</a></li>
+            <li><a href="#news">NEWS</a></li>
+            <li><a href="#tours">TOURS</a></li>
+            <li><a href="#forum">FORUM</a></li>
+            <li><a href="#pictures">PICTURES</a></li>
+            <li><a href="#videos">VIDEOS</a></li>
+            <li><a href="#shop">SHOP</a></li>
+            <li><a href="#contact">CONTACT</a></li>
         </ul>
     </div>
 
 <div id="logo">
-    <img src="logo.png" alt="">
+    <a href="index.html"><img src="logo.png" alt=""></a>
 </div>
 
 <div id="cover">
     <h1>Petroleum Spirit Daze – Record/Vinyl + Digital Album</h1>
-    <a href="https://swervedriver.bandcamp.com/album/petroleum-spirit-daze"><img src="cover.jpg" alt=""></a>
+    <a href="https://swervedriver.bandcamp.com/album/petroleum-spirit-daze" target="_blank"><img src="cover.jpg" alt=""></a>
 </div>
 <div class="bottom">
     <ul>
-        <li><a href="https://www.instagram.com/swervedriverofficial/"><i class="fa fa-instagram"></i></a></li>
-        <li><a href="https://www.facebook.com/swervedriverofficial"><i class="fa fa-facebook-square"></i></a></li>
-        <li><a href="https://www.youtube.com/user/SwervedriverOfficial"><i class="fa fa-youtube"></i></a></li>
-        <li><a href="https://swervedriver.bandcamp.com/"><i class="fa fa-bandcamp"></a></i></li>
-        <li><a href="https://open.spotify.com/artist/0Sd7X8SxWV0AyDLbvd4uEu"><i class="fa fa-spotify"></i></a></li>
+        <li><a href="https://www.instagram.com/swervedriverofficial/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="https://www.facebook.com/swervedriverofficial" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
+        <li><a href="https://www.youtube.com/user/SwervedriverOfficial" target="_blank"><i class="fa fa-youtube"></i></a></li>
+        <li><a href="https://swervedriver.bandcamp.com/" target="_blank"><i class="fa fa-bandcamp"></a></i></li>
+        <li><a href="https://open.spotify.com/artist/0Sd7X8SxWV0AyDLbvd4uEu" target="_blank"><i class="fa fa-spotify"></i></a></li>
     </ul>
 </div>
 </body>
